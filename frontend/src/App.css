@@ -1,0 +1,14 @@
+body{
+   background-color: #4c15b7;
+   margin: 0;
+   padding: 0;
+}
+
+.App {
+   text-align: center;
+}
+
+.firstCard{
+   display: flex;
+   justify-content: center;
+}

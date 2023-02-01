@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+}
+
+.inputSearch{
+    outline: none;
+
+    background-color: transparent;
+    border: .08rem dashed black;
+    width: 14rem;
+    height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+
+    margin-right: 1rem;
+
+    transition: .15s;
+}
+
+.inputSearch:focus{
+    border-bottom: .2rem solid black;
+    border-bottom-left-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+}
+
+.btnAdd{
+    background-color: #2a8b8b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.btnAdd:hover{
+    cursor: pointer;
+    background-color: #bfff91;
+}
+
+.btnAdd:active{
+    color: black;
+}
+
+.btnRandom{
+    margin-left: 1rem;
+}

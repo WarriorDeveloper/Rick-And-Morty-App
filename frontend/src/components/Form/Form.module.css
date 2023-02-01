@@ -1,0 +1,75 @@
+.container {
+    /* position: relative; */
+    /* border: 2px solid white; */
+    min-width: 100vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.form {
+    background-color: #93c2b1;
+    border-radius: .5rem;
+    width: 29rem;
+    height: 35rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formContent {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTitle {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.formTitleInput{
+    font-size: 1.4rem;
+}
+
+.formInput {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: .1rem solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    width: 20rem;
+}
+
+.formErrors {
+    color: red;
+    font-size: 1.05rem;
+    margin: .5rem;
+}
+
+.btnLogin {
+    background-color: #2a8b8b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+.btnLogin:hover{
+    cursor: pointer;
+    background-color: #bfff91;
+}
+.btnLogin:active{
+    color: black;
+}

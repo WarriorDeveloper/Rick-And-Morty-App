@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+    background-color: #c4c1e0;
+    padding: 1rem;
+    min-width: max-content;
+    height: 2rem;
+}

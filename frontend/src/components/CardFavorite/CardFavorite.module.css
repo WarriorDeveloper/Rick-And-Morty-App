@@ -1,0 +1,35 @@
+.container{
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.card{
+    text-decoration: none;
+    background-color: #2a8b8b;
+    border: .4rem solid #bfff91;
+    border-radius: 1rem;
+    width: 30rem;
+}
+
+.info{
+    color: white;
+    margin: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.img {
+
+    width: 13rem;
+    right: 13rem;
+
+    margin: .5rem;
+    border-radius: .4rem;
+}

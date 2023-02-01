@@ -1,0 +1,55 @@
+.container{}
+
+/* character container */
+.character{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 3rem;
+}
+
+/* info character */
+.info{
+    color: white;
+}
+.info h1 { /*name character*/
+    border-bottom: .3rem solid black;
+    font-size: 3rem;
+}
+.info h2 { /*more info character*/
+    display: flex;
+    justify-content: left;
+    font-size: 1.4rem;
+}
+
+/* image character */
+.image {
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.3);
+    margin-left: 4rem;
+}
+
+
+/* boton */
+.btnHome{
+    text-decoration: none;
+    background-color: #2a8b8b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.btnHome:hover{
+    cursor: pointer;
+    background-color: #bfff91;
+}
+
+.navLink{
+    text-decoration: none;
+    color: white;
+}
+
+.navLink:active{
+    color: black;
+}

@@ -1,0 +1,23 @@
+.btn{
+    text-decoration: none;
+    background-color: #2a8b8b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #bfff91;
+}
+
+.navLink{
+    text-decoration: none;
+    color: white;
+}
+
+.navLink:active{
+    color: black;
+}
